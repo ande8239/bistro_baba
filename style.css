@@ -23,7 +23,7 @@
 
    h1 {
        text-align: center;
-       font-family: 'Montserrat';
+       font-family: Verdana, bold, sans-serif;
        margin: 10px;
        font-size: 25px;
 
@@ -33,7 +33,7 @@
 
 
    h2 {
-       font-family: 'Montserrat';
+       font-family: Verdana, bold, sans-serif;
        font-size: 16px;
        margin: 10px;
 
@@ -41,7 +41,7 @@
    }
 
    p {
-       font-family: 'Montserrat';
+       font-family: Verdana, bold, sans-serif;
        font-size: 12px;
        line-height: 1.8rem;
        margin: 10px;
@@ -57,21 +57,21 @@
    }
 
    button {
-       font-family: 'Montserrat';
-       padding: 1.35em 2.2em;
-       border: 0.2em solid #dd6363;
+       font-family: monospace, bold, sans-serif;
+       padding: 1.45em 2.5em;
+       border: 0.5em solid cadetblue;
        text-decoration: none;
-       font-weight: 300;
-       font-size: 11px;
+       font-weight: 400;
+       font-size: 12px;
        color: black;
        transition: all 0.2s;
-       box-shadow: 1px 2px black;
-       border-radius: 5px;
-       background-color: #dd6363;
+       box-shadow: 2px 4px black;
+       border-radius: 8px;
+       background-color: cadetblue;
    }
 
    #russia {
-       height: 400px;
+       height: 430px;
        width: 100%;
    }
 
@@ -107,16 +107,16 @@
        width: 60vw;
        height: 80vh;
        margin: 4rem auto;
-       background-color: white;
+       background-color: #B2B2A2;
        border-radius: 15px;
 
    }
 
    #luk {
        position: fixed;
-       font-family: 'Montserrat';
+       font-family: Georgia, bold, sans-serif;
        padding: 1.35em 2.2em;
-       border: 0.2em solid #dd6363;
+       border: 0.2em solid #B2B2A2;
        text-decoration: none;
        font-weight: 300;
        font-size: 10px;
@@ -124,7 +124,7 @@
        transition: all 0.2s;
        box-shadow: 1px 2px black;
        border-radius: 5px;
-       background-color: #dd6363;
+       background-color: #B2B2A2;
        top: 5vw;
        right: 21vw;
    }
@@ -142,7 +142,7 @@
    }
 
    #popop p {
-       font-family: 'Montserrat';
+       font-family: 'Verdana';
        margin-left: 20px;
 
    }
@@ -162,11 +162,11 @@
    @media (max-width:600px) {
        button {
            padding: 1.35em 2.2em;
-           border: 0.2em solid #dd6363;
+           border: 0.2em solid #B2B2A2;
            font-size: 8px;
            transition: all 0.2s;
-           box-shadow: 1px 2px black;
+           box-shadow: 5px 10px black;
            border-radius: 5px;
-           background-color: #dd6363;
+           background-color: #B2B2A2;
        }
    }
