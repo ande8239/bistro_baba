@@ -71,9 +71,8 @@
    }
 
    #russia {
-       max-width: 800px;
-       background-size: cover;
-       background-position: center;
+       height: 400px;
+       width: 100%;
    }
 
    button:hover {
