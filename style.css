@@ -70,6 +70,12 @@
        background-color: #dd6363;
    }
 
+   #russia {
+       max-width: 800px;
+       background-size: cover;
+       background-position: center;
+   }
+
    button:hover {
        color: white;
        background-color: black;
